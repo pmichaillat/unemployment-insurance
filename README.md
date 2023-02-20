@@ -1,6 +1,6 @@
-# Code & Data for "A Macroeconomic Approach to Optimal Unemployment Insurance: Applications"
+# A Macroeconomic Approach to Optimal Unemployment Insurance: Applications – Code and Data
 
-This repository contains the code and data associated with the article ["A Macroeconomic Approach to Optimal Unemployment Insurance: Applications"](https://www.pascalmichaillat.org/5.html), written by [Camille Landais](https://www.lse.ac.uk/economics/people/faculty/camille-landais), [Pascal Michaillat](https://www.pascalmichaillat.org), and [Emmanuel Saez](https://eml.berkeley.edu/~saez/), and published in the [American Economic Journal: Economic Policy](https://doi.org/10.1257/pol.20160462) in May 2018. 
+This repository contains the code and data accompanying the article ["A Macroeconomic Approach to Optimal Unemployment Insurance: Applications"](https://pascalmichaillat.org/5/), written by [Camille Landais](https://www.lse.ac.uk/economics/people/faculty/camille-landais), [Pascal Michaillat](https://pascalmichaillat.org), and [Emmanuel Saez](https://eml.berkeley.edu/~saez/), and published in the [American Economic Journal: Economic Policy](https://doi.org/10.1257/pol.20160462) in May 2018. 
 
 ## Data
 
@@ -44,10 +44,14 @@ The results are produced with Stata code and Matlab code.
 	- Figure 10 
 	- Figure A2
 
-## Software versions
+## Software
 
 The results were obtained on a Mac running macOS Sierra with the following software:
 
 * Matlab R2017a
 * Stata 14
 * Microsoft Excel 15.33
+
+## License
+
+The content of this repository is licensed under the terms of the MIT License.
