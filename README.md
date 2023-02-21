@@ -1,6 +1,10 @@
 # A Macroeconomic Approach to Optimal Unemployment Insurance: Applications – Code and Data
 
-This repository contains the code and data accompanying the article ["A Macroeconomic Approach to Optimal Unemployment Insurance: Applications"](https://pascalmichaillat.org/5/), written by [Camille Landais](https://www.lse.ac.uk/economics/people/faculty/camille-landais), [Pascal Michaillat](https://pascalmichaillat.org), and [Emmanuel Saez](https://eml.berkeley.edu/~saez/), and published in the [American Economic Journal: Economic Policy](https://doi.org/10.1257/pol.20160462) in May 2018. 
+This repository contains the code and data accompanying the paper "A Macroeconomic Approach to Optimal Unemployment Insurance: Applications", written by [Camille Landais](https://www.lse.ac.uk/economics/people/faculty/camille-landais), [Pascal Michaillat](https://pascalmichaillat.org), and [Emmanuel Saez](https://eml.berkeley.edu/~saez/), and published in the [American Economic Journal: Economic Policy](https://doi.org/10.1257/pol.20160462) in May 2018. 
+
+## Paper webpage
+
+The paper and its online appendix are available at https://pascalmichaillat.org/5/. A companion paper developing the theoretical results used in this paper is available at https://pascalmichaillat.org/4/.
 
 ## Data
 
@@ -31,7 +35,7 @@ The results are produced with Stata code and Matlab code.
 * The Matlab helper scripts `format_figure.m`, `format_simulation.m`, and `format_big.m` contain code to format the Matlab figures.
 * The Matlab function `quarter.m` transforms a monthly time series into a quarterly time series.
 * The Matlab script `construct_recruiter_producer_ratio.m` constructs the three alternative measures of recruiter-producer ratio, the synthetic measure of recruiter-producer ratio, as well as intermediate statistics. The procedures to construct the various measures of recruiter-producer ratio and the intermediate statistics are described in Section II.A and Online Appendix B.
-* The Matlab script `plot_statistics.m` uses the data in `statistics.xlsx` to produce several figures from the article and online appendices:
+* The Matlab script `plot_statistics.m` uses the data in `statistics.xlsx` to produce several figures from the article and online appendix:
 	- Figures 1: panels A and B
 	- Figure 2
 	- Figure 3
@@ -39,7 +43,7 @@ The results are produced with Stata code and Matlab code.
 	- Figure 6
 	- Figure A1: panels A, B, C, and D
 * The Matlab script `solve_formula.m` uses the sufficient statistics in `statistics.xlsx` and the sufficient-statistic formula in the article to solve for the optimal UI replacement rate in the United States over the 1990–2014 period. The formula and procedure to solve it are described in Section IV.B. The results are displayed in Figure 7. The script also performs the sensitivity analysis described in Section IV.C and Online Appendix F. The results of the sensitivity analysis are reported in Figure 8.
-* The Matlab script `simulation_ui.m` simulates the job-rationing model of Michaillat (2012) under various UI programs: when UI is given by the exact optimal formula (formula (11)); when UI is given by the approximate optimal formula (formula (21)); when UI is given by the Baily-Chetty formula; and when UI is constant at a replacement rate of 42%. The simulations allow us to assess the accuracy of the approximate formula (21) and to compute the welfare gains from optimal UI. The simulations are described in Sections IV.D and IV.E and in Online Appendix H. The calibration of the simulation model is described in Online Appendix G. The script produces several figures from the article and online appendices:
+* The Matlab script `simulation_ui.m` simulates the job-rationing model of Michaillat (2012) under various UI programs: when UI is given by the exact optimal formula (formula (11)); when UI is given by the approximate optimal formula (formula (21)); when UI is given by the Baily-Chetty formula; and when UI is constant at a replacement rate of 42%. The simulations allow us to assess the accuracy of the approximate formula (21) and to compute the welfare gains from optimal UI. The simulations are described in Sections IV.D and IV.E and in Online Appendix H. The calibration of the simulation model is described in Online Appendix G. The script produces several figures from the article and online appendix:
 	- Figure 9
 	- Figure 10 
 	- Figure A2
