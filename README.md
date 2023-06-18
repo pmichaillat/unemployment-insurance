@@ -47,7 +47,7 @@ The results are produced with Stata code and MATLAB code.
 	+ When UI is given by the exact optimal formula (11)
 	+ When UI is given by the approximate optimal formula (21)
 	+ When UI is given by the Baily-Chetty formula
-	+ When UI is constant at a replacement rate of 42%
+	+ When UI is constant at a replacement rate of 42%  
 The simulations allow us to assess the accuracy of the approximate formula (21) and to compute the welfare gains from optimal UI. The simulations are described in Sections IV.D and IV.E and in Online Appendix H. The calibration of the simulation model is described in Online Appendix G. The script produces several figures from the article and online appendix:
 	+ Figure 9
 	+ Figure 10 
