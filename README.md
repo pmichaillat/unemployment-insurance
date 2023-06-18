@@ -51,6 +51,7 @@ The results are produced with Stata code and MATLAB code.
 ## Software
 
 The results were obtained on a Mac running macOS Sierra with the following software:
+
 + MATLAB R2017a
 + Stata 14
 + Microsoft Excel 15.33
