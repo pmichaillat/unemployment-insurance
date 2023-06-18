@@ -18,7 +18,7 @@ alternative measures of recruiter-producer ratio. The data are used by `construc
 	+ `CPS` contains US data from the BLS Current Population Survey (CPS) for 1990–2014.
  	+ `NBER` contains US recession dates constructed by the NBER business-cycle dating committee.
 + `data_replacement_rate.xlsx` contains the data used to construct the effective replacement rate of the UI program in the United States. The data are used by `construct_replacement_rate.do`. A `readme` sheet at the beginning of the workbook describes the different sheets and explains the sources of the data.
-+ `statistics.xlsx` contains the effective UI replacement rate and the measures of recruiter-producer ratio constructed in the paper. It also contains intermediate statistics, constructed in the process. This workbook contains seven worksheets.
++ `statistics.xlsx` contains the effective UI replacement rate and the measures of recruiter-producer ratio constructed in the paper. It also contains intermediate statistics, constructed in the process. This workbook contains seven worksheets:
 	+ `effective replacement rate` contains the effective UI replacement rate constructed by `construct_replacement_rate.do`.
 	+ `vacancies` contains the number of vacancies obtained by rescaling the help-wanted index from Barnichon (2010) using vacancies measured in JOLTS data. This series is constructed by `construct_recruiter_producer_ratio.m`.
 	+ `vacancy-unemployment ratio` is obtained by dividing the series in `vacancies` by the unemployment level in CPS data. This series is constructed by `construct_recruiter_producer_ratio.m`.
@@ -51,7 +51,6 @@ The results are produced with Stata code and MATLAB code.
 ## Software
 
 The results were obtained on a Mac running macOS Sierra with the following software:
-
 + MATLAB R2017a
 + Stata 14
 + Microsoft Excel 15.33
