@@ -1,6 +1,6 @@
 # A Macroeconomic Approach to Optimal Unemployment Insurance: Applications – Code and Data
 
-This repository contains the code and data accompanying the paper "A Macroeconomic Approach to Optimal Unemployment Insurance: Applications", written by [Camille Landais](https://www.lse.ac.uk/economics/people/faculty/camille-landais), [Pascal Michaillat](https://pascalmichaillat.org), and [Emmanuel Saez](https://eml.berkeley.edu/~saez/), and published in the [American Economic Journal: Economic Policy](https://doi.org/10.1257/pol.20160462) in May 2018. 
+This repository contains the code and data accompanying the paper "A Macroeconomic Approach to Optimal Unemployment Insurance: Applications", written by [Camille Landais](https://www.lse.ac.uk/economics/people/faculty/camille-landais), [Pascal Michaillat](https://pascalmichaillat.org), and [Emmanuel Saez](https://eml.berkeley.edu/~saez/), and published by the [American Economic Journal: Economic Policy](https://doi.org/10.1257/pol.20160462) in May 2018. 
 
 ## Paper webpage
 
